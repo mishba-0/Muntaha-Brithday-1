@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday Munthahanthaha 💖</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="confetti"></canvas>
+  <div id="fall"></div>
+  <div id="balloons"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home"><span class="crownico">👑</span><span class="lg">Munthaha</span></a>
+    <nav id="menu">
+      <a href="#home" class="act">🏠 Home</a><a href="#gallery">🎁 Gallery</a><a href="#wishes">💖 Wishes</a><a
+        href="#munthahasic">🎵 Munthahasic</a><a href="#gift">⭐ Surprise</a>
+    </nav>
+    <a class="pill" href="#thanks">Happy Birthday ♥</a>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="gold-balloon gb1"></div>
+      <div class="gold-balloon gb2"></div>
+
+      <div class="cake-wrap">
+        <div class="cake" id="cake">
+          <div class="candles">
+            <i class="candle"><b class="flame"></b></i><i class="candle"><b class="flame"></b></i><i class="candle"><b
+                class="flame"></b></i><i class="candle"><b class="flame"></b></i><i class="candle"><b
+                class="flame"></b></i>
+          </div>
+          <div class="crown">👑</div>
+          <div class="tier t1"><span class="drip"></span></div>
+          <div class="tier t2"><span class="drip"></span></div>
+          <div class="roses"><span>🌹</span><span>🌸</span><span>🌹</span></div>
+          <div class="plate"></div>
+        </div>
+        <button class="btn ghost" id="blowBtn">🕯️ Blow Candles</button>
+      </div>
+
+      <div class="hero-text">
+        <span class="crown2">👑</span>
+        <p class="script hb">Happy Birthday</p>
+        <h1 class="name" id="name" aria-label="Munthaha"></h1>
+        <div class="divider"><i></i>♡<i></i></div>
+        <p class="tag">May your life be filled with happiness,<br>love and endless joy! ♡</p>
+        <button class="btn big" id="startBtn">🎁 Start Surprise <span>▶</span></button>
+        <div class="timer" id="timer"></div>
+      </div>
+
+      <div class="right">
+        <div class="note">
+          <span class="pin">💛</span>
+          <p>You are special…<br>You are amazing…<br>You are loved!</p>
+          <p class="script sig">Happy Birthday<br>Munthaha ♥</p>
+        </div>
+        <div class="giftpile"><span>🎁</span><span>🎁</span></div>
+      </div>
+    </section>
+
+    <section class="strip" aria-label="Quick links">
+      <a href="#home" id="s-cake"><em>🎂</em><b>Birthday Cake</b><small>Blow Candles</small></a>
+      <a href="#gift"><em>🎁</em><b>Surprise Gift</b><small>Open Now</small></a>
+      <a href="#gallery"><em>🖼️</em><b>Photo Gallery</b><small>Our Memories</small></a>
+      <a href="#munthahasic"><em>🎵</em><b>Birthday Munthahasic</b><small>Play Now</small></a>
+      <a href="#wishes"><em>💖</em><b>Special Wishes</b><small>For You</small></a>
+      <a href="#thanks"><em>⭐</em><b>Thank You</b><small>For Being Here</small></a>
+    </section>
+
+    <section class="row">
+      <article class="card" id="gallery-mini">
+        <h2 class="script">♡ Our Memories ♥</h2>
+        <div class="polas">
+          <figure style="--r:-8deg;--img:url(images/image\ 1.png);--bg:linear-gradient(135deg,#ffb6d0,#ff6fa0)">
+            <span></span></figure>
+          <figure style="--r:2deg;--img:url(images/image\ 2.webp);--bg:linear-gradient(135deg,#3b2a20,#c28a2c)">
+            <span></span></figure>
+          <figure style="--r:9deg;--img:url(images/image\ 3.jpg);--bg:linear-gradient(135deg,#ffd9a0,#ff9fbd)">
+            <span></span></figure>
+        </div>
+      </article>
+
+      <article class="card" id="wishes">
+        <h2 class="script">♥ Birthday Wishes ♥</h2>
+        <p class="wish" id="wish"></p>
+        <div class="dots" id="dots"></div>
+        <p class="script signoff">Stay Happy Always Munthaha♥</p>
+      </article>
+
+      <article class="card" id="munthahasic">
+        <h2 class="script">♫ Munthahasic Player ♫</h2>
+        <div class="player">
+          <div class="disc" id="disc"></div>
+          <div class="pinfo"><b>Happy Birthday Song</b>
+            <div class="ctrl">
+              <button id="prev" aria-label="Restart">⏮</button>
+              <button id="play" class="pp" aria-label="Play">▶</button>
+              <button id="munthahate" aria-label="Munthahate">🔊</button>
+            </div>
+          </div>
+        </div>
+        <div class="bar"><i id="barfill"></i></div>
+      </article>
+
+      <article class="card giftcard" id="gift">
+        <div class="gift" id="gift-box" tabindex="0" role="button" aria-label="Open gift">
+          <div class="lid"></div>
+          <div class="box"></div>
+          <div class="rib"></div>
+          <div class="inside">💖</div>
+        </div>
+        <p class="script">You are truly special!</p>
+        <small>Gift par click karo</small>
+      </article>
+    </section>
+
+    <section id="gallery" class="sec">
+      <h2 class="script center">Photo Gallery</h2>
+      <div class="grid">
+        <figure style="--r:-3deg;--img:url(images/Sweet\ Moments\ .png);--bg:linear-gradient(135deg,#ffb6d0,#ff6fa0)">
+          <span></span>
+          <figcaption>Sweet Moments</figcaption>
+        </figure>
+        <figure style="--r:2deg;--img:url(images/Golden\ Days\ .png);--bg:linear-gradient(135deg,#ffe1a8,#e6b35a)">
+          <span></span>
+          <figcaption>Golden Days</figcaption>
+        </figure>
+        <figure style="--r:-2deg;--img:url(images/Pure\ Joy\ Teddy\ .png);--bg:linear-gradient(135deg,#ffd0e0,#f48fb1)">
+          <span></span>
+          <figcaption>Pure Joy</figcaption>
+        </figure>
+        <figure style="--r:3deg;--img:url(images/Gifts\ &\ Smiles\ .png);--bg:linear-gradient(135deg,#fff0f5,#ffadc8)">
+          <span></span>
+          <figcaption>Gifts &amp; Smiles</figcaption>
+        </figure>
+        <figure style="--r:-3deg;--img:url(images/Beautiful\ You.png);--bg:linear-gradient(135deg,#ffd9a0,#ff9fbd)">
+          <span></span>
+          <figcaption>Beautiful You</figcaption>
+        </figure>
+        <figure style="--r:2deg;--img:url(images/Forever\ Memories\ .png);--bg:linear-gradient(135deg,#f9c6dc,#c2185b)">
+          <span></span>
+          <figcaption>Forever Memories</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="thanks" class="sec final">
+      <div class="thanks-card">
+        <div class="big-gift">🎁</div>
+        <h2 class="script">Thank You! 💖</h2>
+        <p class="tag">Munthaha aap hamesha khush raho, munthaha skurati raho,<br>aur aapke saare khwab poore hon.</p>
+        <button class="btn" id="againBtn">🎉 Celebrate Again</button>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>♥ With lots of love, always ♥</span><span class="fc">Happy Birthday Munthaha 🎂</span><button id="top"
+      aria-label="Back to top">Back to Top ↑</button></footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="mbox">
+      <div class="mheart">💖</div>
+      <h3 class="script">Dear Munthaha</h3>
+      <p>Aap meri life ki sabse khoobsurat khushi ho. Allah aapko hamesha khush rakhe, aur har din aapke liye birthday
+        jaisa special ho. Happy Birthday! 🎂💕</p>
+      <button class="btn" id="closeM">Close ✕</button>
+    </div>
+  </div>
+  <audio id="audio" src="munthahasic/birthday.mp3" preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
